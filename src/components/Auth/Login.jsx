@@ -43,7 +43,6 @@ const Login = ({ setIsLoginShow }) => {
       return res;
     },
     onSuccess: (data) => {
-      console.log(data);
       toast({
         title: "Success",
         description: "You have successfully Logged in",
