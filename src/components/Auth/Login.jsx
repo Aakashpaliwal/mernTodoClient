@@ -111,7 +111,7 @@ const Login = ({ setIsLoginShow }) => {
               if (token) {
                 localStorage.setItem("userData", JSON.stringify(token));
               }
-              window.location.href = "/home";
+              navigate('/home')
             })
             .catch((err) => {
               console.log(err);
